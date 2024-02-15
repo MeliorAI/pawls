@@ -306,12 +306,12 @@ class TokenTableBuilder:
                     except Exception as e:
                         print(
                             f"💥 Error in annotation {a_idx}, paper: {paper_sha} | "
-                            f"annotator: {anno_file.annotator}: {e}"
+                            f"annotator: {annotator}: {e}"
                         )
             except Exception as e:
                 print(
                     f"💥 Couldn't produce export for file: {paper_sha} | "
-                    f"annotator: {anno_file.annotator}: {e}"
+                    f"annotator: {annotator}: {e}"
                 )
 
     def export(self):
