@@ -14,13 +14,13 @@ import re
 @click.argument("shas", type=str, nargs=-1)
 @click.option(
     "--sha-file",
-    "-sf",
+    "-f",
     type=click.Path(exists=True, file_okay=True, dir_okay=False),
     help="A path to a file containing shas.",
 )
 @click.option(
     "--name-file",
-    "-nf",
+    "-f",
     type=click.Path(exists=True, file_okay=True, dir_okay=False),
     help="A path to a json file mapping shas to file names.",
 )

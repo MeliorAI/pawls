@@ -1,21 +1,16 @@
-import os
 import json
-from typing import List, NamedTuple, Union, Dict, Any
+import os
+from typing import Any, Dict, List, NamedTuple, Union
 
 import click
 import pandas as pd
-from tqdm import tqdm
-from pdf2image import convert_from_path
-
-from pawls.commands.utils import (
-    load_json,
-    get_pdf_sha,
-    get_pdf_pages_and_sizes,
-    LabelingConfiguration,
-    AnnotationFolder,
-    AnnotationFiles,
-)
+from pawls.commands.utils import (AnnotationFiles, AnnotationFolder,
+                                  LabelingConfiguration,
+                                  get_pdf_pages_and_sizes, get_pdf_sha,
+                                  load_json)
 from pawls.preprocessors.model import *
+from pdf2image import convert_from_path
+from tqdm import tqdm
 
 ALL_SUPPORTED_EXPORT_TYPE = ["coco", "token"]
 
@@ -306,12 +301,12 @@ class TokenTableBuilder:
                     except Exception as e:
                         print(
                             f"💥 Error in annotation {a_idx}, paper: {paper_sha} | "
-                            f"annotator: {annotator}: {e}"
+                            f"annotator: {anno_file.annotator}: {e}"
                         )
             except Exception as e:
                 print(
                     f"💥 Couldn't produce export for file: {paper_sha} | "
-                    f"annotator: {annotator}: {e}"
+                    f"annotator: {anno_file.annotator}: {e}"
                 )
 
     def export(self):
