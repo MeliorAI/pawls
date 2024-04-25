@@ -1,0 +1,103 @@
+{
+  "output_directory": "/skiff_files/apps/pawls/papers/",
+  "labels": [
+    {
+      "text": "Title",
+      "color": "#8000ff"
+    },
+    {
+      "text": "Parties",
+      "color": "#b6fe22"
+    },
+    {
+      "text": "Termination",
+      "color": "#ffb2b2"
+    },
+    {
+      "text": "Escalation",
+      "color": "#3e65fa"
+    },
+    {
+      "text": "Payment Terms",
+      "color": "#2884f6"
+    },
+    {
+      "text": "Effective Date",
+      "color": "#11a0f1"
+    },
+    {
+      "text": "Duration",
+      "color": "#04b9ea"
+    },
+    {
+      "text": "Renewal",
+      "color": "#1acfe3"
+    },
+    {
+      "text": "Governing Law",
+      "color": "#32e3da"
+    },
+    {
+      "text": "Dispute Resolution",
+      "color": "#48f1d0"
+    },
+    {
+      "text": "Notices",
+      "color": "#5efac6"
+    },
+    {
+      "text": "Confidentiality",
+      "color": "#74feba"
+    },
+    {
+      "text": "Data Ownership",
+      "color": "#8bfeae"
+    },
+    {
+      "text": "IP Ownership",
+      "color": "#a0faa1"
+    },
+    {
+      "text": "Insurance",
+      "color": "#b6f193"
+    },
+    {
+      "text": "Compliance",
+      "color": "#cce385"
+    },
+    {
+      "text": "Warranties",
+      "color": "#e4cf74"
+    },
+    {
+      "text": "Permitted Use",
+      "color": "#fbb965"
+    },
+    {
+      "text": "Definition of Confidential Information",
+      "color": "#ffa055"
+    },
+    {
+      "text": "Tenant Improvements",
+      "color": "#ff8444"
+    },
+    {
+      "text": "Maintenance & Repairs",
+      "color": "#ff6533"
+    },
+    {
+      "text": "Assignment (& Subletting)",
+      "color": "#ff4422"
+    },
+    {
+      "text": "Remedies/Penalties",
+      "color": "#ff2211"
+    },
+    {
+      "text": "Scope of Work",
+      "color": "#ff0000"
+    }
+  ],
+  "relations": [],
+  "users_file": "/users/allowed.txt"
+}
